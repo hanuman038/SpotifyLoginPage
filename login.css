@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(221, 215, 215);
+}
+
+.logo> img{
+    height:15%;
+    width:15%;
+    padding: 10px 0;
+}
+
+.showcase{
+    height: 90vh;
+    width: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.login{
+    top: 0;
+    height: 650px;
+    width: 450px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    
+    text-align: left;
+}
+
+.showcase-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 5px;
+
+}
+
+button{
+    height: 45px;
+    margin-bottom: 10px;
+    border-radius: 22.5px;
+    border: none;
+    font-size:15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fb{
+    background-color: rgb(60, 72, 177);
+    color: #fff;
+}
+.ap{
+    background-color:black;
+    color:#fff;
+}
+
+.go ,.ph{
+    background-color:white;
+    color:rgb(102, 102, 102);
+    border:2.2px solid gray;
+
+}
+p{
+    text-align: center;
+}
+
+.showcase-2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    font-size: 14px;
+    font-weight:bold;
+    color: rgb(39, 39, 39);
+}
+
+input{
+    margin-top: 10px ;
+    margin-bottom: 22px;
+    height:40px;
+    width: 99%;
+    font-size: 15px;
+    
+}
+
+form> a{
+    color:#666;
+    font-size:16px;
+    
+}
+input[type="checkbox"]{
+    height:20px;
+    width:20px;
+    border-radius: 3px;
+    color: #666;
+    
+}
+
+
+input[type="checkbox"]:checked{
+    background-color:rgb(49, 131, 49);
+}
+.form-check-label{
+    padding-bottom: 10px;
+    color: #666;
+}
+.showcase-3{
+    margin-top: 45px;
+}
+.showcase-3 > button{
+    background-color:rgb(49, 131, 49);
+    width:12rem;
+    height:50px;
+    border-radius: 25px;
+    margin-left: 110px;
+    color:#fff;
+}
